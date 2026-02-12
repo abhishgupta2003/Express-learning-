@@ -5,7 +5,7 @@ app.get('/',(req,res)=>{
     res.send('Hello World!  how are you  ');
 });
 app.get('/profile',(req,res)=>{
-    res.send('Hello World!  profile created successfully ');
+    res.send('Hello World!  profile created successfully by dev ');
 });
 app.listen(port, ()=>{
     console.log(`Server is running at http://localhost:${port}`);
